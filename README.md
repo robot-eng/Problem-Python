@@ -61,6 +61,18 @@ print(i3)
 $\color[rgb]{1,0,1}OR$
 ```Python
 # 3
+"""
+i1 = []
+c = 0
+while (c==0):
+    for i in range(1,21):
+        i1.append(i)
+        c = 1   
+for x in range((len(i1)*2)-1):
+    if x%2 != 0:i1.insert(x,'+')
+for x1 in range(len(i1)):
+    print(i1[x1],end="")
+"""
 i1 = []
 while 1:
     for i in range(1,21):i1.append(i)   
