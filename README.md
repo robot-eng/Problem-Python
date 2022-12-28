@@ -58,6 +58,18 @@ i2 = str(i1)
 i3 = i2.replace(dis[0],dis[1]).replace(dis[4],dis[3]).replace(dis[5],dis[1]).replace(dis[2],dis[1])
 print(i3)
 ```
+$\color[rgb]{1,0,1}OR$
+```Python
+# 3
+i1 = []
+while 1:
+    for i in range(1,21):i1.append(i)   
+    if i == 20:break
+for x in range((len(i1)*2)-1):
+    if x%2 != 0:i1.insert(x,'+')
+for x1 in range(len(i1)):
+    print(i1[x1],end="")
+```
 $\color[rgb]{0,1,0}Output$
 ```Txt
 1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20
