@@ -86,3 +86,16 @@ $\color[rgb]{0,1,0}Output$
 ```Txt
 1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20
 ```
+##### **3. จงรับค่า $\color[rgb]{1,0,1}input$ เช่น $\color[rgb]{1,0,1}6+3$ มาคำนวณโดยกำหนดให้ใช้ได้เเค่ 1 บรรทัด (EX. $\color[rgb]{1,0,1}input$ = 6+3 $\color[rgb]{1,0,1}output$ = 9)**
+
+```Python
+print(eval(input(" ")))
+```
+$\color[rgb]{0,1,0}Input$
+```Txt
+9+3
+```
+$\color[rgb]{0,1,0}Output$
+```Txt
+12
+```
