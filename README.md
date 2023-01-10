@@ -100,7 +100,7 @@ $\color[rgb]{0,1,0}Output$
 12
 ```
 ##### **4. จงเขียนโปรแกรมเพื่อแปลง list เป็น array แล้วเรียงจากมากไปน้อย โดยตัวอย่างการเเสดง $\color[rgb]{1,0,1}input$ เเละ $\color[rgb]{1,0,1}Output$ ดังนี้**
->$\color[rgb]{1,0,1}Input$
+>$\color[rgb]{0,1,1}Input$
 >
 >[230,450,-270,180,860,100]
 
@@ -115,4 +115,53 @@ lis = [int(x) for x in strlis] # Convert values in list from str to int
 lis.sort(reverse=True) # Sort descending order
 for y in lis:
   print(y,end=" ")
+```
+##### **5. จงเขียนโปรแกรมเเสดงสีของลูกบอลที่มีอยู่ในถังที่หนึ่งและสอง แต่ไม่มีอยู่ในถังที่สาม (กรณีที่ไม่มีลูกบอลสีใดเลยที่ตรงตามเงื่อนไข ให้ผลลัพธ์ออกเป็น none)**
+>$\color[rgb]{0,1,1}Input$
+>
+>b1=[red,green,blue] b2=[black,green,white] b3=[blue]
+
+>$\color[rgb]{1,0,1}Output$
+>
+>green
+
+>$\color[rgb]{0,1,1}Input$
+>
+>b1=[pink,yellow] b2=[brown,pink,green] b3=[orange,pink]
+
+>$\color[rgb]{1,0,1}Output$
+>
+>none
+
+>$\color[rgb]{0,1,1}Input$
+>
+>b1=[blue,orange,white,brown] b2=[red,orange,white,brown] b3=[orange,blue,green]
+
+>$\color[rgb]{1,0,1}Output$
+>
+>white,brown
+
+```Python
+x,y,z = input().split()
+a = x[4::].split("]")
+a1 = a[0].split(",")
+b = y[4::].split("]")
+b1 = b[0].split(",")
+c = z[4::].split("]")
+c1 = c[0].split(",")
+c2,c3 = [],[]
+for xx in a1:
+  try:
+    c2.append(b1[b1.index(xx)])
+  except:
+    pass
+for yy in c2:
+  if yy not in c1:
+    c3.append(yy)
+for x1 in range((len(c3)*2)-1):
+    if x1%2 != 0:c3.insert(x1,',')
+for x2 in range(len(c3)):
+    print(c3[x2],end="")
+if str(c3) == "[]":
+  print('none')
 ```
