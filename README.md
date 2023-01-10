@@ -99,3 +99,20 @@ $\color[rgb]{0,1,0}Output$
 ```Txt
 12
 ```
+##### **4. จงเขียนโปรแกรมเพื่อแปลง list เป็น array แล้วเรียงจากมากไปน้อย โดยตัวอย่างการเเสดง $\color[rgb]{1,0,1}input$ เเละ $\color[rgb]{1,0,1}Output$ ดังนี้**
+>$\color[rgb]{1,0,1}Input$
+>
+>[230,450,-270,180,860,100]
+
+>$\color[rgb]{1,0,1}Output$
+>
+>860 450 230 180 100 -270
+```Python
+str_input =input() #input
+del_str = str_input.strip('[,]') # del [ and ] in string
+strlis = del_str.split(',') # Make a list and make , disappear
+lis = [int(x) for x in strlis] # Convert values in list from str to int
+lis.sort(reverse=True) # Sort descending order
+for y in lis:
+  print(y,end=" ")
+```
