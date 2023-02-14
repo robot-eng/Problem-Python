@@ -314,3 +314,36 @@ x = list(map(int, input().split()))
 y = ''.join(chr(i+96) for i in x)
 print(y)
 ```
+##### **9.หาคนที่ได้รับของขวัญจากซานต้ามากที่สุด ตัวอย่างดังนี้
+>$\color[rgb]{0,1,1}Input$
+>
+>5
+>HH
+>HH
+>N
+>N
+>HH
+
+>$\color[rgb]{1,0,1}Output$
+>
+>HH
+
+```Python
+number = input()
+dictionary = dict()
+max_gifts = 0
+max_person = None
+
+for i in range(int(number)):
+     name = input()
+     if name in dictionary:
+          dictionary[name] += 1
+     else:
+          dictionary[name] = 1
+          
+     if dictionary[name] > max_gifts:
+          max_gifts = dictionary[name]
+          max_person = name
+          
+print(max_person)
+```
