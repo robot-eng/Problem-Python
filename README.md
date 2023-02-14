@@ -362,6 +362,7 @@ for i in range(int(number)):
 print(max_person)
 
 #2
+from collections import defaultdict
 number = input()
 dictionary = defaultdict(lambda: 0)
 max_gifts = 0
