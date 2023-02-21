@@ -407,7 +407,7 @@ print(max_person)
 ```
 >$\color[rgb]{0,1,1}Input$
 >
->10
+>12
 >
 
 >$\color[rgb]{1,0,1}Output$
