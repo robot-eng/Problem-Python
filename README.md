@@ -495,3 +495,39 @@ y = int(input())/100
 i = (x)/(y**2)
 print("BMI: %g"%round(i,2))
 ```
+##### **12.ให้แสดงตัวอักษร ที่เกินมาจาก จำนวน n โดย n คือจำนวนตัวอักษรของข้อความที่สั้นที่สุด ซึ่งรวมถึงช่องว่างภายในข้อความด้วยให้รับค่ามาเป็นข้อความสองชุด**
+>$\color[rgb]{0,1,1}Input$
+>
+>Aa Bb...      Zz
+>CookIE Run
+>
+
+>$\color[rgb]{1,0,1}Output$
+>
+>    Zz = 6
+
+>$\color[rgb]{0,1,1}Input$
+>
+>HelloDevlaB
+>loveyouto YouDDD
+>
+
+>$\color[rgb]{1,0,1}Output$
+>
+>ouDDD = 5
+
+```Python
+#Output Example
+a = input()
+b = input()
+a1 = len(a)
+b1 = len(b)
+if a1 > b1 :
+  c = a[b1::]
+  print(c,"=","%d"%(len(c)))
+elif a1 < b1 :
+  c = b[a1::]
+  print(c,"=","%d"%(len(c)))
+else:
+  print("no surplus")
+```
