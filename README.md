@@ -498,23 +498,24 @@ print("BMI: %g"%round(i,2))
 ##### **12.ให้แสดงตัวอักษร ที่เกินมาจาก จำนวน n โดย n คือจำนวนตัวอักษรของข้อความที่สั้นที่สุด ซึ่งรวมถึงช่องว่างภายในข้อความด้วยให้รับค่ามาเป็นข้อความสองชุด**
 >$\color[rgb]{0,1,1}Input$
 >
->Aa Bb...      Zz
+>Aa Bb...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zz
+> 
 >CookIE Run
->
 
 >$\color[rgb]{1,0,1}Output$
->
->    Zz = 6
+
+
+>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zz = 6
 
 >$\color[rgb]{0,1,1}Input$
 >
->HelloDevlaB
->loveyouto YouDDD
+> HelloDevlaB
 >
+> loveyouto YouDDD
 
 >$\color[rgb]{1,0,1}Output$
 >
->ouDDD = 5
+> ouDDD = 5
 
 ```Python
 #Output Example
