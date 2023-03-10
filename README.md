@@ -92,27 +92,27 @@ Output
 1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20
 ```
 
-##### **3. จงรับค่า $\color[rgb]{1,0,1}input$ เช่น $\color[rgb]{1,0,1}6+3$ มาคำนวณโดยกำหนดให้ใช้ได้เเค่ 1 บรรทัด (EX. $\color[rgb]{1,0,1}input$ = 6+3 $\color[rgb]{1,0,1}output$ = 9)**
+##### **3. จงรับค่า input เช่น 6+3 มาคำนวณโดยกำหนดให้ใช้ได้เเค่ 1 บรรทัด (EX. input = 6+3 / output = 9)**
 
 ```Python
 print(eval(input(" ")))
 ```
-$\color[rgb]{0,1,0}Input$
+Input
 ```Text
 9+3
 ```
-$\color[rgb]{0,1,0}Output$
+Output
 ```Text
 12
 ```
 
-##### **4. จงเขียนโปรแกรมเพื่อแปลง list เป็น array แล้วเรียงจากมากไปน้อย โดยตัวอย่างการเเสดง $\color[rgb]{1,0,1}input$ เเละ $\color[rgb]{1,0,1}Output$ ดังนี้**
+##### **4. จงเขียนโปรแกรมเพื่อแปลง list เป็น array แล้วเรียงจากมากไปน้อย โดยตัวอย่างการเเสดง input เเละ Output ดังนี้**
 
 >Input
 >
 >[230,450,-270,180,860,100]
 
->$\color[rgb]{1,0,1}Output$
+>Output
 >
 >860 450 230 180 100 -270
 ```Python
@@ -127,27 +127,27 @@ for y in lis:
 
 ##### **5. จงเขียนโปรแกรมเเสดงสีของลูกบอลที่มีอยู่ในถังที่หนึ่งและสอง แต่ไม่มีอยู่ในถังที่สาม (กรณีที่ไม่มีลูกบอลสีใดเลยที่ตรงตามเงื่อนไข ให้ผลลัพธ์ออกเป็น none)**
 
->$\color[rgb]{0,1,1}Input$
+>Input
 >
 >b1=[red,green,blue] b2=[black,green,white] b3=[blue]
 
->$\color[rgb]{1,0,1}Output$
+>Output
 >
 >green
 
->$\color[rgb]{0,1,1}Input$
+>Input
 >
 >b1=[pink,yellow] b2=[brown,pink,green] b3=[orange,pink]
 
->$\color[rgb]{1,0,1}Output$
+>Output
 >
 >none
 
->$\color[rgb]{0,1,1}Input$
+>Input
 >
 >b1=[blue,orange,white,brown] b2=[red,orange,white,brown] b3=[orange,blue,green]
 
->$\color[rgb]{1,0,1}Output$
+>Output
 >
 >white,brown
 
@@ -176,7 +176,7 @@ if str(c3) == "[]":
   print('none')
 ```
 
-##### **6. จงเขียนโปรแกรมเเสดง จำนวนถั่วที่สามารถกำออกมาได้มากที่สุด โดยมี $\color[rgb]{1,0,1}เงื่อนไข$ ว่า ขนาดของมือจะเล็กกว่าขนาดของรูบนกล่องเสมอ โดยมีรูปเเบบ $\color[rgb]{1,0,1}Input$ ดังต่อไปนี้**
+##### **6. จงเขียนโปรแกรมเเสดง จำนวนถั่วที่สามารถกำออกมาได้มากที่สุดโดยมีเงื่อนไขว่า ขนาดของมือจะเล็กกว่าขนาดของรูบนกล่องเสมอ โดยมีรูปเเบบ Input ดังต่อไปนี้**
 
 ```Txt
 รูปเเบบ Input
@@ -203,14 +203,14 @@ while 1:
     break
 print(l)
 ```
-$\color[rgb]{0,1,0}Input$
+Input
 ```Text
 6.0
 3.5
 5
 0.5
 ```
-$\color[rgb]{0,1,0}Output$
+Output
 ```Text
 5
 ```
@@ -226,7 +226,7 @@ $\color[rgb]{0,1,0}Output$
 
 - บรรทัดที่ 3 - เวลาเฉลี่ยที่ใช้ในการนับแกะของทุกคน
 ```
->$\color[rgb]{0,1,1}Input$
+>Input
 >
 >3
 >
@@ -236,7 +236,7 @@ $\color[rgb]{0,1,0}Output$
 >
 >700
 
->$\color[rgb]{1,0,1}Output$
+>Output
 >
 >Winner : 0 hr 10 min 10 sec
 >
@@ -297,7 +297,7 @@ print("Winner : %s"%time_max[0],"hr",time_max[1],"min",time_max[2],"sec")
 print("Loser : %s"%time_min[0],"hr",time_min[1],"min",time_min[2],"sec")
 print("Average : %s"%time_Average[0],"hr",time_Average[1],"min",time_Average[2],"sec")
 ```
-$\color[rgb]{0,1,0}Input$
+Input
 ```Text
 7
 7690
@@ -308,18 +308,18 @@ $\color[rgb]{0,1,0}Input$
 5633
 3451
 ```
-$\color[rgb]{0,1,0}Output$
+Output
 ```Text
 Winner : 2 hr 26 min 5 sec
 Loser : 0 hr 42 min 45 sec
 Average : 1 hr 33 min 58 sec
 ```
 ##### **8. จงนำ input มาแปล โดยการแปลงตัวอักษรภาษาอังกฤษเป็นตัวเลขสามารถแปลได้ดังนี้ A=1 B=2 C=3 D=4 E=5 F=6 G=7 H=8 I=9 J=10 K=11 L=12 M=13 N=14 O=15 P=16 Q=17 R=18 S=19 T=20 U=21 V=22 W=23 X=24 Y=25 Z=26 โดยตัวอย่างดังนี้**
->$\color[rgb]{0,1,1}Input$
+>Input
 >
 >19 15 18 18 25
 
->$\color[rgb]{1,0,1}Output$
+>Output
 >
 >sorry
 
@@ -330,7 +330,7 @@ print(y)
 ```
 
 ##### **9.หาคนที่ได้รับของขวัญจากซานต้ามากที่สุด ตัวอย่างดังนี้**
->$\color[rgb]{0,1,1}Input$
+>Input
 >
 >5
 >HH
@@ -339,7 +339,7 @@ print(y)
 >N
 >HH
 
->$\color[rgb]{1,0,1}Output$
+>Output
 >
 >HH
 
@@ -383,12 +383,12 @@ print(max_person)
 
 ##### **10.สร้างนาฬิกาทรายรูปแบบ Star Pattern เเละสร้างกรอบ รูปเเบบ shape ดังตัวอย่างต่อไปนี้**
 
->$\color[rgb]{0,1,1}Input$
+>Input
 >
 >5
 >
 
->$\color[rgb]{1,0,1}Output$
+>Output
 
 ```
 * * * * *
@@ -407,12 +407,12 @@ print(max_person)
   #   #
   #####
 ```
->$\color[rgb]{0,1,1}Input$
+>Input
 >
 >12
 >
 
->$\color[rgb]{1,0,1}Output$
+>Output
 
 ```
 * * * * * * * * * * * *
@@ -453,6 +453,7 @@ print(max_person)
       ############
 ```
 > **Note** เลขคู่เหลื่อมล้ำได้ดังตัวอย่าง input 12
+
 ```Python
 n=int(input())
 for j in range(n, 0 , -1): 
@@ -469,23 +470,23 @@ if n ==1:
 ```
 
 ##### **11.คำนวณ BMI โดย ให้รับ Input 2 ตัวแปรดังนี้ 1.ค่าน้ำหนัก ในหน่วยกิโลกรัม 2.ค่าส่วนสูง ในหน่วยเซนติเมตร ดังตัวอย่างนี้**
->$\color[rgb]{0,1,1}Input$
+>Input
 >
 >63
 >173
 >
 
->$\color[rgb]{1,0,1}Output$
+>Output
 >
 >BMI: 21.05
 
->$\color[rgb]{0,1,1}Input$
+>Input
 >
 >50
 >170
 >
 
->$\color[rgb]{1,0,1}Output$
+>Output
 >
 >BMI: 17.3
 
@@ -496,24 +497,25 @@ i = (x)/(y**2)
 print("BMI: %g"%round(i,2))
 ```
 ##### **12.ให้แสดงตัวอักษร ที่เกินมาจาก จำนวน n โดย n คือจำนวนตัวอักษรของข้อความที่สั้นที่สุด ซึ่งรวมถึงช่องว่างภายในข้อความด้วยให้รับค่ามาเป็นข้อความสองชุด**
->$\color[rgb]{0,1,1}Input$
+
+>Input
 >
 >Aa Bb...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zz
 > 
 >CookIE Run
 
->$\color[rgb]{1,0,1}Output$
+>Output
 
 
 >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Zz = 6
 
->$\color[rgb]{0,1,1}Input$
+>Input
 >
 > HelloDevlaB
 >
 > loveyouto YouDDD
 
->$\color[rgb]{1,0,1}Output$
+>Output
 >
 > ouDDD = 5
 
