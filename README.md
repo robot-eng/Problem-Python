@@ -2,7 +2,7 @@
 
 > **Warning** เป็นการเก็บรวมร่วมโจทย์ เเละฟังชันก์ต่างๆใน python เพื่อไม่ให้ลืม ร่วมไปถึงการใช้งาน ทบทวน เเละเพื่อสะดวกต่อการเปิดอ่านได้ง่าย 
 
-##### **1. กำหนดให้ $\color[rgb]{1,0,1}list$ $\color[rgb]{1,0,1}=$ $\color[rgb]{1,0,1}[1,2,3,...,25]$ เขียนโปรเเกรมเปลี่ยนสมาชิกใน $\color[rgb]{1,0,1}list$ ที่ index เป็นเลขคู่ให้เป็นค่ายกกำลัง 2 จากนั้นพิมค่า list ออกมา**
+##### **1. กำหนดให้ list = [1,2,3,...,25] เขียนโปรเเกรมเปลี่ยนสมาชิกใน list ที่ index เป็นเลขคู่ให้เป็นค่ายกกำลัง 2 จากนั้นพิมค่า list ออกมา**
 
 ```Python
 # 1
@@ -17,7 +17,7 @@ for y2 in lis2:
      lis.insert(y2,lis3[y2]**2)
 print("Eeven**2 :",lis)
 ```
-$\color[rgb]{1,0,1}OR$
+OR
 ```Python
 # 2
 x = 25
@@ -27,7 +27,7 @@ for y in range(len(lis)):
     if y%2==0:lis[y] = lis[y]**2
 print("Index Eeven**2:",lis,end=" ")
 ```
-$\color[rgb]{0,1,0}Output$
+Output
 ```Txt
 # 1
 list : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
@@ -51,7 +51,7 @@ while 1:
     if i == 20:
         break
 ```
-$\color[rgb]{1,0,1}OR$
+OR
 ```Python
 # 2
 i1 = []
@@ -63,7 +63,7 @@ i2 = str(i1)
 i3 = i2.replace(dis[0],dis[1]).replace(dis[4],dis[3]).replace(dis[5],dis[1]).replace(dis[2],dis[1])
 print(i3)
 ```
-$\color[rgb]{1,0,1}OR$
+OR
 ```Python
 # 3
 i1 = []
@@ -87,7 +87,7 @@ for x1 in range(len(i1)):
     print(i1[x1],end="")
 """
 ```
-$\color[rgb]{0,1,0}Output$
+Output
 ```Txt
 1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20
 ```
@@ -108,7 +108,7 @@ $\color[rgb]{0,1,0}Output$
 
 ##### **4. จงเขียนโปรแกรมเพื่อแปลง list เป็น array แล้วเรียงจากมากไปน้อย โดยตัวอย่างการเเสดง $\color[rgb]{1,0,1}input$ เเละ $\color[rgb]{1,0,1}Output$ ดังนี้**
 
->$\color[rgb]{0,1,1}Input$
+>Input
 >
 >[230,450,-270,180,860,100]
 
