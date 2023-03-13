@@ -198,44 +198,28 @@ Output
   #  #
   ####
 ```
-> **Note** เลขคู่เหลื่อมล้ำได้ดังตัวอย่าง input 12
-
-```Python
-n=int(input())
-for j in range(n, 0 , -1): 
-  print(" "*(n-j)+"* "*(j))
-for i in range(n): 
-  print(" "*(n-1-i)+"* "*(i+1))
-if n != 1:
-  print(" "*int((n/2))+n*"#")
-  for k in range(n-2):
-    print(" "*int((n/2))+"#"+(n-2)*" "+"#")
-  print(" "*int((n/2))+n*"#")
-if n ==1:
-  print(" "*int((n/2))+"#")
-```
+> **Note** เลขคู่เหลื่อมล้ำได้ดังตัวอย่าง input 4
 
 ##### **11.คำนวณ BMI โดย ให้รับ Input 2 ตัวแปรดังนี้ 1.ค่าน้ำหนัก ในหน่วยกิโลกรัม 2.ค่าส่วนสูง ในหน่วยเซนติเมตร ดังตัวอย่างนี้**
->Input
->
->63
->173
->
 
->Output
->
->BMI: 21.05
-
->Input
->
->50
->170
->
-
->Output
->
->BMI: 17.3
-
+Input
+```
+63
+173
+```
+Output
+```
+BMI: 21.05
+```
+Input
+```
+50
+170
+```
+Output
+```
+BMI: 17.3
+```
 ```Python
 x = int(input())
 y = int(input())/100
