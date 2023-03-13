@@ -47,15 +47,6 @@ Output
 >Output
 >
 >860 450 230 180 100 -270
-```Python
-str_input =input() #input
-del_str = str_input.strip('[,]') # del [ and ] in string
-strlis = del_str.split(',') # Make a list and make , disappear
-lis = [int(x) for x in strlis] # Convert values in list from str to int
-lis.sort(reverse=True) # Sort descending order
-for y in lis:
-  print(y,end=" ")
-```
 
 ##### **5. จงเขียนโปรแกรมเเสดงสีของลูกบอลที่มีอยู่ในถังที่หนึ่งและสอง แต่ไม่มีอยู่ในถังที่สาม (กรณีที่ไม่มีลูกบอลสีใดเลยที่ตรงตามเงื่อนไข ให้ผลลัพธ์ออกเป็น none)**
 
