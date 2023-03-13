@@ -89,19 +89,6 @@ white,brown
 - บรรทัดสี่ ขนาดมือที่เพิ่มขึ่นต่อถั่ว 1 ชิ้น
 
 ```
-```Python
-a =  float(input())
-b =  float(input())
-c =  float(input()) 
-d = float(input())
-l = 0
-while 1:
-  l = l+1
-  cc = (d*l)+b
-  if cc>=a:
-    break
-print(l)
-```
 Input
 ```Text
 6.0
