@@ -141,66 +141,27 @@ sorry
 ```
 
 ##### **9.หาคนที่ได้รับของขวัญจากซานต้ามากที่สุด ตัวอย่างดังนี้**
->Input
->
->5
->HH
->HH
->N
->N
->HH
 
->Output
->
->HH
-
-```Python
-#1
-number = input()
-dictionary = dict()
-max_gifts = 0
-max_person = None
-
-for i in range(int(number)):
-     name = input()
-     if name in dictionary:
-          dictionary[name] += 1
-     else:
-          dictionary[name] = 1
-          
-     if dictionary[name] > max_gifts:
-          max_gifts = dictionary[name]
-          max_person = name
-          
-print(max_person)
-
-#2
-from collections import defaultdict
-number = input()
-dictionary = defaultdict(lambda: 0)
-max_gifts = 0
-max_person = None
-
-for i in range(int(number)):
-     name = input()
-     dictionary[name] += 1
-     
-     if dictionary[name] > max_gifts:
-          max_gifts = dictionary[name]
-          max_person = name
-          
-print(max_person)
+Input
 ```
-
+5
+HH
+HH
+N
+N
+HH
+```
+Output
+```
+HH
+```
 ##### **10.สร้างนาฬิกาทรายรูปแบบ Star Pattern เเละสร้างกรอบ รูปเเบบ shape ดังตัวอย่างต่อไปนี้**
 
->Input
->
->5
->
-
->Output
-
+Input
+```
+5
+```
+Output
 ```
 * * * * *
  * * * *
@@ -218,50 +179,24 @@ print(max_person)
   #   #
   #####
 ```
->Input
->
->12
->
-
->Output
-
+Input
 ```
-* * * * * * * * * * * *
- * * * * * * * * * * *
-  * * * * * * * * * *
-   * * * * * * * * *
-    * * * * * * * *
-     * * * * * * *
-      * * * * * *
-       * * * * *
-        * * * *
-         * * *
-          * *
-           *
-           *
-          * *
-         * * *
-        * * * *
-       * * * * *
-      * * * * * *
-     * * * * * * *
-    * * * * * * * *
-   * * * * * * * * *
-  * * * * * * * * * *
- * * * * * * * * * * *
-* * * * * * * * * * * *
-      ############
-      #          #
-      #          #
-      #          #
-      #          #
-      #          #
-      #          #
-      #          #
-      #          #
-      #          #
-      #          #
-      ############
+4
+```
+Output
+```
+* * * * 
+ * * * 
+  * * 
+   * 
+   * 
+  * * 
+ * * * 
+* * * * 
+  ####
+  #  #
+  #  #
+  ####
 ```
 > **Note** เลขคู่เหลื่อมล้ำได้ดังตัวอย่าง input 12
 
