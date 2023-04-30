@@ -13,9 +13,7 @@
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NumPy is a fundamental library for data science and machine learning, and it is used extensively in the scientific and engineering communities for numerical computations.</p>
 
 ## **Characteristics of numpy**
-
-### ***Here are some key characteristics of NumPy:***
-
+#### ***Here are some key characteristics of NumPy:***
 1. Multi-dimensional Arrays: NumPy provides support for multi-dimensional arrays, which can be used to represent vectors, matrices, and higher-dimensional tensors. These arrays can be of any size and shape and can be indexed and sliced like Python lists.
 
 2. Fast Numerical Computations: NumPy is designed to be fast and optimized for numerical computations. It is written in C, which makes it much faster than pure Python for numerical operations.
@@ -31,9 +29,7 @@
 7. Open Source: NumPy is an open-source library, which means that it is free to use and can be modified and distributed by anyone. This has made it a popular choice for scientific computing and machine learning applications.
 
 ## **Usage numpy**
-
-### ***NumPy is used extensively in scientific computing and data analysis. Here are some common use cases for NumPy:***
-
+#### ***NumPy is used extensively in scientific computing and data analysis. Here are some common use cases for NumPy:***
 1. Numerical Computations: NumPy is used to perform numerical computations on large arrays and matrices, such as matrix multiplication, element-wise operations, and linear algebra operations.
 
 2. Data Analysis: NumPy is used to manipulate and analyze large datasets. NumPy arrays can be used to store and manipulate data, and NumPy functions can be used to perform statistical operations on the data.
