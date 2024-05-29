@@ -2,7 +2,7 @@
 
 > **Warning** เป็นการเก็บรวมร่วมโจทย์ เเละฟังชันก์ต่างๆใน python เพื่อไม่ให้ลืม ร่วมไปถึงการใช้งาน ทบทวน เเละเพื่อสะดวกต่อการเปิดอ่านได้ง่าย 
 
-##### **1. กำหนดให้ list = [1,2,3,...,25] เขียนโปรเเกรมเปลี่ยนสมาชิกใน list ที่ index เป็นเลขคู่ให้เป็นค่ายกกำลัง 2 จากนั้นพิมค่า list ออกมา** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/code/1.py)
+##### **1. กำหนดให้ list = [1,2,3,...,25] เขียนโปรเเกรมเปลี่ยนสมาชิกใน list ที่ index เป็นเลขคู่ให้เป็นค่ายกกำลัง 2 จากนั้นพิมค่า list ออกมา** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/problem-python-code/answer/1.py)
 
 Output
 ```Txt
@@ -17,14 +17,14 @@ list : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 2
 Index Even**2: [1, 2, 9, 4, 25, 6, 49, 8, 81, 10, 121, 12, 169, 14, 225, 16, 289, 18, 361, 20, 441, 22, 529, 24, 625]
 ```
 
-##### **2.จงปริ้นค่า 1+2+3+...+20 โดยใช้ while และ for** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/code/2.py)
+##### **2.จงปริ้นค่า 1+2+3+...+20 โดยใช้ while และ for** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/problem-python-code/answer/2.py)
 
 Output
 ```Txt
 1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20
 ```
 
-##### **3. จงรับค่า input เช่น 6+3 มาคำนวณโดยกำหนดให้ใช้ได้เเค่ 1 บรรทัด (EX. input = 6+3 / output = 9)**
+##### **3. จงรับค่า input เช่น 6+3 มาคำนวณโดยกำหนดให้ใช้ได้เเค่ 1 บรรทัด (EX. input = 6+3 / output = 9)** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/problem-python-code/answer/3.py)
 
 ```Python
 print(eval(input(" ")))
@@ -38,7 +38,7 @@ Output
 12
 ```
 
-##### **4. จงเขียนโปรแกรมเพื่อแปลง list เป็น array แล้วเรียงจากมากไปน้อย โดยตัวอย่างการเเสดง input เเละ Output ดังนี้** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/code/4.py)
+##### **4. จงเขียนโปรแกรมเพื่อแปลง list เป็น array แล้วเรียงจากมากไปน้อย โดยตัวอย่างการเเสดง input เเละ Output ดังนี้** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/problem-python-code/answer/4.py)
 
 Input
 ```
@@ -48,7 +48,7 @@ Output
 ```
 860 450 230 180 100 -270
 ```
-##### **5. จงเขียนโปรแกรมเเสดงสีของลูกบอลที่มีอยู่ในถังที่หนึ่งและสอง แต่ไม่มีอยู่ในถังที่สาม (กรณีที่ไม่มีลูกบอลสีใดเลยที่ตรงตามเงื่อนไข ให้ผลลัพธ์ออกเป็น none)** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/code/5.py)
+##### **5. จงเขียนโปรแกรมเเสดงสีของลูกบอลที่มีอยู่ในถังที่หนึ่งและสอง แต่ไม่มีอยู่ในถังที่สาม (กรณีที่ไม่มีลูกบอลสีใดเลยที่ตรงตามเงื่อนไข ให้ผลลัพธ์ออกเป็น none)** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/problem-python-code/answer/5.py)
 
 Input
 ```
@@ -75,7 +75,7 @@ Output
 white,brown
 ```
 
-##### **6. จงเขียนโปรแกรมเเสดง จำนวนถั่วที่สามารถกำออกมาได้มากที่สุดโดยมีเงื่อนไขว่า ขนาดของมือจะเล็กกว่าขนาดของรูบนกล่องเสมอ โดยมีรูปเเบบ Input ดังต่อไปนี้** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/code/6.py)
+##### **6. จงเขียนโปรแกรมเเสดง จำนวนถั่วที่สามารถกำออกมาได้มากที่สุดโดยมีเงื่อนไขว่า ขนาดของมือจะเล็กกว่าขนาดของรูบนกล่องเสมอ โดยมีรูปเเบบ Input ดังต่อไปนี้** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/problem-python-code/answer/6.py)
 
 ```Txt
 รูปเเบบ Input
@@ -101,7 +101,7 @@ Output
 5
 ```
 
-##### **7. จงเขียนโปรแกรมหาว่า ผู้ชนะและผู้แพ้ใช้เวลาในการนับแกะไปคนละกี่ชั่วโมง กี่นาที กี่วินาที และเวลาที่ทุกคนในกลุ่มใช้ในการนับแกะเฉลี่ยกันเท่ากับกี่ชั่วโมง กี่นาที กี่วินาที** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/code/7.py)
+##### **7. จงเขียนโปรแกรมหาว่า ผู้ชนะและผู้แพ้ใช้เวลาในการนับแกะไปคนละกี่ชั่วโมง กี่นาที กี่วินาที และเวลาที่ทุกคนในกลุ่มใช้ในการนับแกะเฉลี่ยกันเท่ากับกี่ชั่วโมง กี่นาที กี่วินาที** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/problem-python-code/answer/7.py)
 
 ```Txt
 รูปเเบบ Input
@@ -129,7 +129,7 @@ Winner : 2 hr 26 min 5 sec
 Loser : 0 hr 42 min 45 sec
 Average : 1 hr 33 min 58 sec
 ```
-##### **8. จงนำ input มาแปล โดยการแปลงตัวอักษรภาษาอังกฤษเป็นตัวเลขสามารถแปลได้ดังนี้ A=1 B=2 C=3 D=4 E=5 F=6 G=7 H=8 I=9 J=10 K=11 L=12 M=13 N=14 O=15 P=16 Q=17 R=18 S=19 T=20 U=21 V=22 W=23 X=24 Y=25 Z=26 โดยตัวอย่างดังนี้** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/code/8.py)
+##### **8. จงนำ input มาแปล โดยการแปลงตัวอักษรภาษาอังกฤษเป็นตัวเลขสามารถแปลได้ดังนี้ A=1 B=2 C=3 D=4 E=5 F=6 G=7 H=8 I=9 J=10 K=11 L=12 M=13 N=14 O=15 P=16 Q=17 R=18 S=19 T=20 U=21 V=22 W=23 X=24 Y=25 Z=26 โดยตัวอย่างดังนี้** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/problem-python-code/answer/8.py)
 
 Input
 ```
@@ -140,7 +140,7 @@ Output
 sorry
 ```
 
-##### **9.หาคนที่ได้รับของขวัญจากซานต้ามากที่สุด ตัวอย่างดังนี้** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/code/9.py)
+##### **9.หาคนที่ได้รับของขวัญจากซานต้ามากที่สุด ตัวอย่างดังนี้** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/problem-python-code/answer/9.py)
 
 Input
 ```
@@ -155,7 +155,7 @@ Output
 ```
 HH
 ```
-##### **10.สร้างนาฬิกาทรายรูปแบบ Star Pattern เเละสร้างกรอบ รูปเเบบ shape ดังตัวอย่างต่อไปนี้** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/code/10.py)
+##### **10.สร้างนาฬิกาทรายรูปแบบ Star Pattern เเละสร้างกรอบ รูปเเบบ shape ดังตัวอย่างต่อไปนี้** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/problem-python-code/answer/10.py)
 
 Input
 ```
@@ -200,7 +200,7 @@ Output
 ```
 > **Note** เลขคู่เหลื่อมล้ำได้ดังตัวอย่าง input 4
 
-##### **11.คำนวณ BMI โดย ให้รับ Input 2 ตัวแปรดังนี้ 1.ค่าน้ำหนัก ในหน่วยกิโลกรัม 2.ค่าส่วนสูง ในหน่วยเซนติเมตร ดังตัวอย่างนี้** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/code/11.py)
+##### **11.คำนวณ BMI โดย ให้รับ Input 2 ตัวแปรดังนี้ 1.ค่าน้ำหนัก ในหน่วยกิโลกรัม 2.ค่าส่วนสูง ในหน่วยเซนติเมตร ดังตัวอย่างนี้** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/problem-python-code/answer/11.py)
 
 Input
 ```
@@ -221,7 +221,7 @@ Output
 BMI: 17.3
 ```
 
-##### **12.ให้แสดงตัวอักษร ที่เกินมาจาก จำนวน n โดย n คือจำนวนตัวอักษรของข้อความที่สั้นที่สุด ซึ่งรวมถึงช่องว่างภายในข้อความด้วยให้รับค่ามาเป็นข้อความสองชุด** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/code/12.py)
+##### **12.ให้แสดงตัวอักษร ที่เกินมาจาก จำนวน n โดย n คือจำนวนตัวอักษรของข้อความที่สั้นที่สุด ซึ่งรวมถึงช่องว่างภายในข้อความด้วยให้รับค่ามาเป็นข้อความสองชุด** [[click]](https://github.com/robot-eng/Problem-Python/blob/main/problem-python-code/answer/12.py)
 
 Input
 ```
